@@ -1,0 +1,24 @@
+We would like to apply incremental development.
+We do not know the path, we must experiment.
+
+How do we know if we are getting nearer to the goal?
+We must test.
+The tests must be fast to execute.
+
+What do we test?
+Is it the context, the agent, or something else?
+
+Let's explore the different ways of testing.
+1. Testing the context
+a) We setup the context and the agent.
+b) Then we let time flow. 
+c) We measure the properties we are interested in.
+d) We compare the actual results with the expected ones.
+
+2. Testing the agent
+a) We setup the agent
+b) We simulate one or more of the modules
+c) We check that the tested module behaves as expected
+
+So we either test the agent in a context or we test the components of the agent.
+Does the context have components which we could test?
