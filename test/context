@@ -1,0 +1,9 @@
+Context should contain two entities.
+Context should have a timer.
+No change should be visible in the context between any two steps of the timer.
+The timer should have a current step index.
+The timer should have a "next" command that increments the current step index.
+The timer should have a "previous" command that decrements the current step index.
+The timer should have an initial current step index of zero.
+It should not be possible to have a step index which is less than zero.
+The two entities in the context should have a relative distance to each other.
