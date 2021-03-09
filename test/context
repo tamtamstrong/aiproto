@@ -1,4 +1,3 @@
-Context should contain two entities.
 Context should have a timer.
 No change should be visible in the context between any two steps of the timer.
 The timer should have a current step index.
@@ -6,4 +5,25 @@ The timer should have a "next" command that increments the current step index.
 The timer should have a "previous" command that decrements the current step index.
 The timer should have an initial current step index of zero.
 It should not be possible to have a step index which is less than zero.
-The two entities in the context should have a relative distance to each other.
+
+Context should contain two entities.
+One entity should be a fixed point called "target".
+The other entity should be an intelligent agent called "agent".
+
+Agent should have a distance to the target, called "D" in short.
+D should have two dimensions: a vertical (Dv) and a horizontal (Dh) one.
+Dv should be equal to 10 units and Dh equal to 8 units. 
+Agent should be motivated to have Dv = 0 and Dh = 0.
+
+Agent should have two sensors.
+The sensors should be called Sv and Sh.
+Sv should measure changes in Dv.
+Sh should measure changes in Dh.
+
+Agent should have four motors.
+The motors should be called M12, M3, M6 and M9.
+When M12 is fired, Dv should have a value lower by 1 unit when measured on the next timer step when fired.
+When M6 is fired, Dv should have a value higher by 1 unit when measured on the next timer step when fired.
+When M3 is fired, Dh should have a value lower by 1 unit when measured on the next timer step when fired.
+When M9 is fired, Dv should have a value higher by 1 unit when measured on the next timer step when fired.
+
