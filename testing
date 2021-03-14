@@ -22,3 +22,9 @@ c) We check that the tested module behaves as expected
 
 So we either test the agent in a context or we test the components of the agent.
 Does the context have components which we could test?
+
+Is the agent part of the context or is it separate?
+Or better put, is there an agent? 
+We can view the context as the rules of the game and the agent as the player.
+But that means defining an interface, putting limits on the agent, defining the agent.
+So the context and the agent are one.
