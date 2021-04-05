@@ -10,3 +10,11 @@ The context also contains the contept of time.
 In order to have change there must be passing of time.
 Closeness in time of actions is important (correlation).
 There must be a before and after. Time must flow in one direction.
+
+Each event must have a timestamp.
+Or can it have an index?
+When we write an event in a log we create a new entry, we increment a counter and link that counter to the event.
+What do we need this index for?
+To have an order of events. To be able to group them by closeness in time. 
+To be able to link cause and effect.
+But then this is for logging purposes only?
