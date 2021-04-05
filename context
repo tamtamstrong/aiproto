@@ -18,3 +18,10 @@ What do we need this index for?
 To have an order of events. To be able to group them by closeness in time. 
 To be able to link cause and effect.
 But then this is for logging purposes only?
+
+What are the smallest parts? The basic construction blocks?
+They must have a shape. Some sort of rectangle maybe.
+At the minimum they would have two sides of different types (A and B).
+Two sides of different type attract each other while sides of the same type repell each other.
+So A connects with B and vice-versa but B does not connect with another B nor A with another A.
+But then we're talking about space and time (movement).
