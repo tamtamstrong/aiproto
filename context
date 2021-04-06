@@ -25,3 +25,10 @@ At the minimum they would have two sides of different types (A and B).
 Two sides of different type attract each other while sides of the same type repell each other.
 So A connects with B and vice-versa but B does not connect with another B nor A with another A.
 But then we're talking about space and time (movement).
+
+What are these blocks doing? Just float around?
+How many dimensions are there?
+Three dimensions are needed i think. And a minimum of two cells for a lego block.
+And when two blocks are joined a new one is formed. (it could possibly be split in components later)
+So basically we have a lego world with simple 2 cell blocks which can be joined to form larger blocks.
+Who joins the blocks? Do they move around randomly until they get in the right position to join?
