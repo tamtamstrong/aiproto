@@ -1,0 +1,16 @@
+The tracer is a simple agent.
+It is composed of:
+
+1. sensors
+- one sensor which provides 40 (magic number) bits of input data.
+
+2. motors
+- can zoom in and out
+- can move sensor focus up and down, left and right 
+
+3. memory
+- 200 bits (5 x 40) total memory.
+
+4. motivation
+- likes circles
+- is indifferent to other shapes (rectangles)
